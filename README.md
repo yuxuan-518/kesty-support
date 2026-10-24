@@ -1,82 +1,84 @@
 # Kesty
 
-**规划学习，保持专注，记录进步。**
+**English** | [简体中文](README.zh-CN.md)
 
-Kesty 是一款使用 Swift 和 SwiftUI 开发的 iOS 学习与效率管理应用，将每日任务、专注计时、长期目标和个人成长记录整合在一起。
+**Plan your studies. Stay focused. Track your progress.**
 
-应用把计划与行动联系起来：用户可以从任务直接开始专注，将学习时间累计到对应任务，并通过日历和统计页面回顾学习进度。
+Kesty is an iOS study and productivity app built with Swift and SwiftUI. It brings daily tasks, focus sessions, long-term goals, and personal achievement records together.
 
-## 主要功能
+The app connects planning with action: start a focus session directly from a task, add study time to that task, and review your progress through calendars and statistics.
 
-### 每日任务与目标
+## Features
 
-- 创建、重命名和删除每日任务。
-- 累计任务投入时间，或为任务设置目标时长。
-- 从任务列表直接开始专注。
-- 达到目标时长后，自动将对应任务标记为完成。
-- 在新的一天归档此前的任务状态，并保留任务内容、重置每日进度。
+### Daily tasks and goals
 
-### 专注计时
+- Create, rename, and delete daily tasks.
+- Accumulate time spent on a task or set a target duration.
+- Start a focus session directly from the task list.
+- Automatically mark a task as complete when its target duration is reached.
+- Archive the previous day's task status and reset daily progress while keeping task definitions.
 
-- 自定义倒计时时长，默认设置为 25 分钟。
-- 将专注过程关联到具体任务。
-- 记录完整完成的专注，以及持续至少 5 秒后主动结束的专注。
-- 完成后查看本次专注总结和连续学习天数。
-- 选择背景音：钢琴、雨声、咖啡馆、风声、森林或环境氛围音。
+### Focus timer
 
-### 长期规划
+- Customize the countdown duration, with a default of 25 minutes.
+- Link a focus session to a specific task.
+- Record completed sessions and sessions manually ended after at least 5 seconds.
+- View a session summary and your study streak after finishing.
+- Choose background audio: piano, rain, café, wind, forest, or ambient drone.
 
-- 创建包含起止时间和子目标的长期计划。
-- 为里程碑指定月份。
-- 按月份查看相关计划和里程碑。
-- 将计划中的子目标关联到每日任务列表。
+### Long-term planning
 
-### 学习进度统计
+- Create plans with start and end dates and smaller goals.
+- Assign milestones to specific months.
+- Browse plans and milestones by month.
+- Link smaller goals from a plan to the daily task list.
 
-- 查看当天的学习时长和每日目标完成进度。
-- 通过月历浏览学习记录。
-- 查看累计专注时长、专注次数、平均时长和最长专注记录。
-- 查看近期学习趋势、专注时间段分布和计划完成情况。
-- 将专注日期和时长以 CSV 格式文本分享出去。
+### Study statistics
 
-### 个人资料与成长记录
+- View today's study time and progress toward your daily goal.
+- Browse study records in a monthly calendar.
+- Review total focus time, session count, average duration, and longest session.
+- Explore recent study trends, focus activity by time of day, and plan completion.
+- Share session dates and durations as CSV-formatted text.
 
-- 设置头像和个人基本信息。
-- 记录教育经历、技能、项目、工作经历、研究、领导经历、志愿服务、课外活动、奖项、证书、出版物和语言能力。
-- 为相关记录补充日期、说明、链接及教育资料。
+### Profile and achievement records
 
-### 外观设置
+- Set an avatar and basic profile information.
+- Record education, skills, projects, work experience, research, leadership, volunteering, extracurricular activities, awards, certifications, publications, and languages.
+- Add dates, descriptions, links, and education materials to relevant entries.
 
-- 自定义应用主题色和背景色。
-- 保存外观偏好，在下次打开应用时继续使用。
+### Appearance settings
 
-## 技术实现
+- Customize the app's theme and background colors.
+- Save appearance preferences for future sessions.
 
-| 模块 | 实现方式 |
+## Technical implementation
+
+| Component | Implementation |
 | --- | --- |
-| 用户界面 | SwiftUI |
-| 共享应用状态 | `ObservableObject`、`@Published` 和 `@EnvironmentObject` |
-| 本地数据存储 | `UserDefaults`、`@AppStorage` 和 Codable 数据模型 |
-| 专注计时 | Combine 定时器发布器 |
-| 音频播放 | AVFoundation |
-| 头像选择与拍摄 | PhotosUI 和 UIKit |
-| 内容分享 | UIKit 分享面板 |
-| 大型音频文件管理 | Git LFS |
+| User interface | SwiftUI |
+| Shared app state | `ObservableObject`, `@Published`, and `@EnvironmentObject` |
+| Local storage | `UserDefaults`, `@AppStorage`, and Codable models |
+| Focus timer | Combine timer publisher |
+| Audio playback | AVFoundation |
+| Avatar selection and camera | PhotosUI and UIKit |
+| Content sharing | UIKit share sheet |
+| Large audio asset management | Git LFS |
 
-项目目前使用 Apple 原生框架，未配置第三方 Swift Package 依赖。
+The project currently uses Apple's native frameworks and has no third-party Swift Package dependencies configured.
 
-## 下载与运行
+## Download and run
 
-### 环境要求
+### Requirements
 
-- 安装了 Xcode 和相应 iOS SDK 的 Mac。
-- iPhone 或 iPad 模拟器，或兼容的实体设备。
-- 当前应用目标配置为 **iOS 17.6 及以上版本**。
-- Git 和 [Git LFS](https://git-lfs.com/)。
+- A Mac with Xcode and the appropriate iOS SDK installed.
+- An iPhone or iPad simulator, or a compatible physical device.
+- The app target is currently configured for **iOS 17.6 or later**.
+- Git and [Git LFS](https://git-lfs.com/).
 
-### 下载并打开项目
+### Download and open the project
 
-请先安装 Git LFS，然后运行：
+Install Git LFS first, then run:
 
 ```sh
 git lfs install
@@ -86,51 +88,50 @@ git lfs pull
 open BarelyWorkinginswiftui.xcodeproj
 ```
 
-Xcode 工程保留了开发时的名称 `BarelyWorkinginswiftui`，应用的显示名称为 **Kesty**。
+The Xcode project retains its development name, `BarelyWorkinginswiftui`. The app's display name is **Kesty**.
 
-在 Xcode 中：
+In Xcode:
 
-1. 选择 `BarelyWorkinginswiftui` 运行方案。
-2. 选择一个 iPhone 或 iPad 模拟器。
-3. 按 **Command + R** 构建并运行。
+1. Select the `BarelyWorkinginswiftui` scheme.
+2. Choose an iPhone or iPad simulator.
+3. Press **Command + R** to build and run.
 
-如果使用实体设备，请在 **Signing & Capabilities** 中配置自己的开发团队。
+For a physical device, configure your own development team under **Signing & Capabilities**.
 
-Ambient Drone 音频文件通过 Git LFS 管理。如果下载项目后缺少该资源，请运行 `git lfs pull`。
+The Ambient Drone audio file is managed with Git LFS. If this asset is missing after downloading the project, run `git lfs pull`.
 
-## 快速体验
+## Quick walkthrough
 
-1. 使用测试信息注册一个本地账号。
-2. 添加任务并选择时间记录方式。
-3. 点击任务旁的 **Start**，进入关联该任务的专注页面。
-4. 设置专注时长，并按需选择背景音。
-5. 完成专注后，查看记录的学习时间。
-6. 进入 **Settings**，体验长期计划、学习统计、个人资料和外观设置。
+1. Register a local account using test information.
+2. Add a task and choose how to track its time.
+3. Tap **Start** beside the task to open a linked focus session.
+4. Set a duration and optionally select background audio.
+5. Finish the session and review your recorded study time.
+6. Open **Settings** to explore long-term plans, study statistics, your profile, and appearance settings.
 
-## 代码结构
+## Code structure
 
-| 文件 | 主要作用 |
+| File | Main responsibility |
 | --- | --- |
-| `AppState.swift` | 共享状态、数据模型、本地存储、账号流程和学习记录 |
-| `RootView.swift` | 启动画面、登录页面与主界面之间的切换 |
-| `TasksView.swift` | 主导航、每日任务、日历和学习进度概览 |
-| `FocusView.swift` | 专注倒计时、任务关联和背景音播放 |
-| `FocusDoneView.swift` | 专注完成后的总结页面 |
-| `SettingsView.swift` | 设置、专注记录导出和账号管理 |
-| `SettingsSubViews.swift` | 目标、长期计划、学习统计及个性化设置页面 |
-| `EditProfileView.swift` | 个人资料、教育经历和成长记录 |
-| `AppTheme.swift` | 共享颜色和外观配置 |
+| `AppState.swift` | Shared state, data models, local storage, account flows, and study records |
+| `RootView.swift` | Navigation between the splash screen, login screen, and main interface |
+| `TasksView.swift` | Main navigation, daily tasks, calendar, and study progress overview |
+| `FocusView.swift` | Focus countdown, task linking, and background audio |
+| `FocusDoneView.swift` | Summary after a focus session |
+| `SettingsView.swift` | Settings, focus record export, and account management |
+| `SettingsSubViews.swift` | Goals, long-term plans, study statistics, and personalization screens |
+| `EditProfileView.swift` | Profile, education, and achievement records |
+| `AppTheme.swift` | Shared colors and appearance configuration |
 
-## 当前实现说明
+## Current implementation notes
 
-- **本地数据存储：** 账号、任务、计划和学习记录保存在当前设备上，尚未实现跨设备云端同步。
-- **本地账号流程：** 注册、登录和密码重置均在本地运行，目前没有接入服务端身份认证或邮箱归属验证。
-- **语言设置：** 应用可以保存语言偏好，但目前大部分界面文字仍为英文。
-- **专注计时：** 当前计时依赖应用内更新，后台和锁屏状态下的计时仍需进一步开发与验证。
+- **Local storage:** Accounts, tasks, plans, and study records are stored on the current device. Cross-device cloud synchronization is not implemented yet.
+- **Local account flows:** Registration, login, and password reset run locally, without server-side authentication or email ownership verification.
+- **Language settings:** The app saves a language preference, but most interface text is currently in English.
+- **Focus timer:** Timing currently depends on in-app updates. Background and lock-screen timing need further development and validation.
 
-## 问题反馈
+## Feedback
 
-欢迎通过 [GitHub Issues](https://github.com/yuxuan-518/kesty-support/issues) 提交问题或功能建议。
+Report bugs or suggest features through [GitHub Issues](https://github.com/yuxuan-518/kesty-support/issues).
 
-提交问题时，请尽量提供设备型号、iOS 版本、复现步骤和预期结果。
-
+When reporting an issue, please include your device model, iOS version, steps to reproduce it, and the expected result.
