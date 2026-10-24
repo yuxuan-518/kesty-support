@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		1102E32F2F623D9700642E3B /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		118D7F3B2F5C9B9600D155C9 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		119E17212F5E11BF00822584 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
 		11B354D92F5BF9C900098C08 /* BarelyWorkinginswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarelyWorkinginswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B354E72F5BFA0700098C08 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		765B63052FF8698600C75AA8 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		7670BED72FD511FD00567A23 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		76D55FEE2FD7B962009C7051 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		76D5A2912F79B8CC0065C427 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		76D5A34C2F79BBB20065C427 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		76D5A3882F79BDA00065C427 /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
+		76EFCD372FD925D80072285D /* BarelyWorking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BarelyWorking.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		76D5A3B42F79BDF30065C427 /* Exceptions for "BarelyWorkinginswiftui" folder in "BarelyWorkinginswiftui" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11B354D82F5BF9C900098C08 /* BarelyWorkinginswiftui */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		11B354DB2F5BF9C900098C08 /* BarelyWorkinginswiftui */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				76D5A3B42F79BDF30065C427 /* Exceptions for "BarelyWorkinginswiftui" folder in "BarelyWorkinginswiftui" target */,
+			);
 			path = BarelyWorkinginswiftui;
 			sourceTree = "<group>";
 		};
@@ -29,6 +53,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1102E3442F623D9700642E3B /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118D7F4A2F5C9B9600D155C9 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		119E17332F5E11BF00822584 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		11B354D02F5BF9C900098C08 = {
 			isa = PBXGroup;
 			children = (
@@ -42,6 +81,46 @@
 			children = (
 				11B354D92F5BF9C900098C08 /* BarelyWorkinginswiftui.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B354EB2F5BFA0700098C08 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		765B631B2FF8698600C75AA8 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7670BEED2FD511FD00567A23 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D560042FD7B962009C7051 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D5A2A72F79B8CC0065C427 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D5A34E2F79BBB20065C427 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D5A39E2F79BDA00065C427 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76EFCD4D2FD925D80072285D /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -97,6 +176,52 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 11B354DA2F5BF9C900098C08 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 11B354EB2F5BFA0700098C08 /* Products */;
+					ProjectRef = 11B354E72F5BFA0700098C08 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 1102E3442F623D9700642E3B /* Products */;
+					ProjectRef = 1102E32F2F623D9700642E3B /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 7670BEED2FD511FD00567A23 /* Products */;
+					ProjectRef = 7670BED72FD511FD00567A23 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 119E17332F5E11BF00822584 /* Products */;
+					ProjectRef = 119E17212F5E11BF00822584 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 76D5A34E2F79BBB20065C427 /* Products */;
+					ProjectRef = 76D5A34C2F79BBB20065C427 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 765B631B2FF8698600C75AA8 /* Products */;
+					ProjectRef = 765B63052FF8698600C75AA8 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 76D560042FD7B962009C7051 /* Products */;
+					ProjectRef = 76D55FEE2FD7B962009C7051 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 76EFCD4D2FD925D80072285D /* Products */;
+					ProjectRef = 76EFCD372FD925D80072285D /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 76D5A39E2F79BDA00065C427 /* Products */;
+					ProjectRef = 76D5A3882F79BDA00065C427 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 118D7F4A2F5C9B9600D155C9 /* Products */;
+					ProjectRef = 118D7F3B2F5C9B9600D155C9 /* BarelyWorking.xcodeproj */;
+				},
+				{
+					ProductGroup = 76D5A2A72F79B8CC0065C427 /* Products */;
+					ProjectRef = 76D5A2912F79B8CC0065C427 /* BarelyWorking.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				11B354D82F5BF9C900098C08 /* BarelyWorkinginswiftui */,
@@ -251,21 +376,31 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2XXT46K5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarelyWorkinginswiftui/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kesty;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kesty uses the camera to let you take a profile photo and set it as your avatar. For example, you can take a photo of yourself while editing your profile. The photo is stored only on your device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = XuanXiong.BarelyWorkinginswiftui;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = XuanXiong.Kesty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -282,21 +417,31 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2XXT46K5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarelyWorkinginswiftui/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kesty;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Kesty uses the camera to let you take a profile photo and set it as your avatar. For example, you can take a photo of yourself while editing your profile. The photo is stored only on your device.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = XuanXiong.BarelyWorkinginswiftui;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = XuanXiong.Kesty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

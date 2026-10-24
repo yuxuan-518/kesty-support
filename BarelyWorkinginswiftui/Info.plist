@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Kesty uses the camera to let you take a profile photo and set it as your avatar. For example, you can take a photo of yourself while editing your profile. The photo is stored only on your device.</string>
+</dict>
+</plist>
