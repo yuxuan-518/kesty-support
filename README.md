@@ -8,6 +8,12 @@ Kesty is an iOS study and productivity app built with Swift and SwiftUI. It brin
 
 The app connects planning with action: start a focus session directly from a task, add study time to that task, and review your progress through calendars and statistics.
 
+## Demo
+
+[Watch / download the demo video (1 min 21 sec)](docs/demo/kesty-demo.mp4)
+
+A screen recording showing focus sessions, background audio, long-term planning, and appearance settings.
+
 ## Features
 
 ### Daily tasks and goals
