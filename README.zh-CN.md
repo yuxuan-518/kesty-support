@@ -10,7 +10,11 @@ Kesty 是一款使用 Swift 和 SwiftUI 开发的 iOS 学习与效率管理应�
 
 ## 演示视频
 
-[查看／下载演示视频（1 分 21 秒）](docs/demo/kesty-demo.mp4)
+点击下方播放器即可观看（1 分 21 秒）。
+
+https://github.com/user-attachments/assets/537430b1-92ab-42d9-896d-da699867107e
+
+[下载原版视频](docs/demo/kesty-demo.mp4)
 
 实际操作录屏，展示专注计时、背景音、长期计划和外观设置。
 

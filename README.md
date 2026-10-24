@@ -10,7 +10,11 @@ The app connects planning with action: start a focus session directly from a tas
 
 ## Demo
 
-[Watch / download the demo video (1 min 21 sec)](docs/demo/kesty-demo.mp4)
+Play the demo below (1 min 21 sec).
+
+https://github.com/user-attachments/assets/537430b1-92ab-42d9-896d-da699867107e
+
+[Download the original video](docs/demo/kesty-demo.mp4)
 
 A screen recording showing focus sessions, background audio, long-term planning, and appearance settings.
 
